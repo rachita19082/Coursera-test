@@ -1,0 +1,133 @@
+body
+{
+	background-color: #61122f;
+	font-size: 16px;
+	font-family: 'Lora', serif;
+}
+
+/** HEADER **/
+#header-nav
+{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1
+{
+	color: grey;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+  	margin-bottom: 0;
+  	line-height: .75;
+  	font-size: 3em;
+}
+
+#nav-list
+{
+	margin-top: 10px;
+}
+
+#nav-list a
+{
+	color: grey;
+	text-align:center;
+	text-shadow: 0.8px 0.8px 0.8px #222;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.navbar-header button.navbar-toggle
+{
+	clear: both;
+	margin-top: 1px;
+}
+
+#main-content
+{
+	color: white;
+}
+
+#text-section
+{
+	color: white;
+	background-color: grey;
+	margin: 20px;
+	padding: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: justify;
+}
+
+#text-section h3
+{
+	color: #61122f;
+	font-weight: bold;
+}
+
+@media (min-width: 1199px)
+{
+	.navbar-brand 
+	{
+		padding-top: 10px;
+		height: 80px;
+	}
+
+	.navbar-brand h1
+	{
+		padding-top: 10px;
+		padding-bottom: 40px;
+		font-size: 4vw;
+	}
+	
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	.navbar-brand 
+	{
+		padding-top: 10px;
+		height: 80px;
+	}
+
+	.navbar-brand h1
+	{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.navbar-brand 
+	{
+		padding-top: 10px;
+		height: 80px;
+	}
+
+	.navbar-brand h1
+	{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	
+}
+
+@media (max-width: 767px)
+{
+	.navbar-brand 
+	{
+		padding-top: 10px;
+		height: 80px;
+	}
+
+	.navbar-brand h1
+	{
+		padding-top: 10px;
+		font-size: 7vw;
+	}
+	
+}
