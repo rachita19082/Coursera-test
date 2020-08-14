@@ -50,18 +50,29 @@ body
 	color: white;
 }
 
-#text-section
+#chicken-section, #sushi-section, #beef-section
 {
 	color: white;
 	background-color: grey;
-	margin: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 0px;
+	margin-left: 0px;
 	padding: 5px;
 	padding-right: 15px;
 	padding-left: 15px;
 	text-align: justify;
 }
 
-#text-section h3
+#top1, #top2, #top3
+{
+	color: #61122f;
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+
+h3
 {
 	color: #61122f;
 	font-weight: bold;
